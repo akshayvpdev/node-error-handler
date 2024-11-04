@@ -20,15 +20,12 @@ This project demonstrates an effective error handling mechanism in an Express.js
  ## Usage
   Here’s a simple example of how to implement the error handling middleware in your Express application:
 
-  ## Custom Error Class
+ ## Custom Error Class
 
-The `CustomError` class extends the built-in JavaScript `Error` class to create a standardized error handling mechanism for the application. This class is used to generate meaningful error messages and status codes for different types of errors.
+  The `CustomError` class extends the built-in JavaScript `Error` class to create a standardized error handling mechanism for the application. This class is used to generate meaningful error messages and status codes for different types 
+  of errors.
 
-### Implementation
-
-Here is the implementation of the `CustomError` class:
-
-```javascript
+ ```javascript
  class CustomError extends Error {
     constructor(message, statusCode) {
         super(message);
